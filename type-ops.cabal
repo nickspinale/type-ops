@@ -1,0 +1,22 @@
+name:                type-ops
+version:             0.1.0.0
+-- synopsis:            
+-- description:         
+homepage:            https://github.com/nickspinale/type-ops
+license:             MIT
+license-file:        LICENSE
+author:              Nick Spinale
+maintainer:          spinalen@carleton.edu
+-- copyright:           
+category:            Language
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Data.Type.Nat.Math
+  -- other-modules:       
+  other-extensions:    DataKinds, TypeOperators
+  build-depends:       base >=4.8 && <4.9
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
